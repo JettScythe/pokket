@@ -447,8 +447,8 @@ class WalletService : LifecycleService(), FusionListener {
                                 }
                                 if (fusionClient == null) {
                                     fusionClient = FusionClient(
-                                        "cashfusion.electroncash.dk",
-                                        8788,
+                                        "fusion.servo.cash",
+                                        8789,
                                         filteredUtxos,
                                         wallet,
                                         this@WalletService
